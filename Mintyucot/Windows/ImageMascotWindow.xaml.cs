@@ -33,5 +33,13 @@ namespace Mintyucot.Windows
             RightResizeBlock.Visibility = Visibility.Visible;
             BottomResizeBlock.Visibility = Visibility.Visible;
         }
+
+        private void ImageMascotWindowOnDeactivated(object sender, EventArgs e)
+        {
+            TopResizeBlock.Visibility = Visibility.Hidden;
+            LeftResizeBlock.Visibility = Visibility.Hidden;
+            RightResizeBlock.Visibility = Visibility.Hidden;
+            BottomResizeBlock.Visibility = Visibility.Hidden;
+        }
     }
 }
