@@ -9,6 +9,14 @@
         Background="Transparent"
         AllowsTransparency="True">
     <Grid>
+        <TextBlock x:Name="TopResizeBlock"
+            TextWrapping="Wrap" Text="" VerticalAlignment="Top" Background="#FF7100FF" Height="9"/>
+        <TextBlock x:Name="LeftResizeBlock"
+            HorizontalAlignment="Left" Margin="0,9,0,0" TextWrapping="Wrap" Text="" Background="#FF7100FF" Width="9"/>
+        <TextBlock x:Name="BottomResizeBlock"
+            Margin="9,0,0,0" TextWrapping="Wrap" Text="" Background="#FF7100FF" VerticalAlignment="Bottom" Height="9"/>
+        <TextBlock x:Name="RightResizeBlock"
+            HorizontalAlignment="Right" Margin="0,9,0,9" TextWrapping="Wrap" Text="" Background="#FF7100FF" Width="9"/>
         <Image 
             x:Name="MascotMainImage"
             Margin="0,0,0,0" MouseLeftButtonDown="MascotMainImageOnMouseLeftButtonDown"/>
