@@ -32,6 +32,7 @@ namespace Mintyucot.Windows
             LeftResizeBlock.Visibility = Visibility.Visible;
             RightResizeBlock.Visibility = Visibility.Visible;
             BottomResizeBlock.Visibility = Visibility.Visible;
+            this.ResizeMode = ResizeMode.CanResizeWithGrip;
         }
 
         private void ImageMascotWindowOnDeactivated(object sender, EventArgs e)
@@ -40,6 +41,7 @@ namespace Mintyucot.Windows
             LeftResizeBlock.Visibility = Visibility.Hidden;
             RightResizeBlock.Visibility = Visibility.Hidden;
             BottomResizeBlock.Visibility = Visibility.Hidden;
+            this.ResizeMode = ResizeMode.NoResize;
         }
     }
 }
