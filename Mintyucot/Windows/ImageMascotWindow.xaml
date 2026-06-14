@@ -19,7 +19,7 @@
             HorizontalAlignment="Right" Margin="0,9,0,9" TextWrapping="Wrap" Text="" Background="#FF7100FF" Width="9"/>
         <Image 
             x:Name="MascotMainImage"
-            Margin="0,0,0,0" MouseLeftButtonDown="MascotMainImageOnMouseLeftButtonDown"/>
+            Margin="9,9,9,9" MouseLeftButtonDown="MascotMainImageOnMouseLeftButtonDown"/>
 
     </Grid>
 </Window>
