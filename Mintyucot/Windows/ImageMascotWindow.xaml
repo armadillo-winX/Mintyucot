@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="ImageMascotWindow" Height="373" Width="380" ShowInTaskbar="False" WindowStyle="None"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True" Activated="ImageMascotWindowOnActivated">
     <Grid>
         <TextBlock x:Name="TopResizeBlock"
             TextWrapping="Wrap" Text="" VerticalAlignment="Top" Background="#FF7100FF" Height="9"/>

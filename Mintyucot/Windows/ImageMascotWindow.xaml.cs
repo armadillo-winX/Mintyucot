@@ -25,5 +25,13 @@ namespace Mintyucot.Windows
         {
             this.DragMove();
         }
+
+        private void ImageMascotWindowOnActivated(object sender, EventArgs e)
+        {
+            TopResizeBlock.Visibility = Visibility.Visible;
+            LeftResizeBlock.Visibility = Visibility.Visible;
+            RightResizeBlock.Visibility = Visibility.Visible;
+            BottomResizeBlock.Visibility = Visibility.Visible;
+        }
     }
 }
