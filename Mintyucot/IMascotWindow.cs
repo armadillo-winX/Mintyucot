@@ -1,6 +1,6 @@
 ﻿namespace Mintyucot
 {
-    internal interface IMascotWindow
+    public interface IMascotWindow
     {
         public string MascotName { get; set; }
 
