@@ -20,6 +20,10 @@
         <Image 
             x:Name="MascotMainImage"
             Margin="0,0,0,0" MouseLeftButtonDown="MascotMainImageOnMouseLeftButtonDown"/>
+        <TextBlock x:Name="ResizeGripBlock"
+            HorizontalAlignment="Right" Margin="0,0,0,0"
+                Width="24" Height="24"
+                TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Background="#FF7100FF" />
 
     </Grid>
 </Window>
